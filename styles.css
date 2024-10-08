@@ -1,0 +1,28 @@
+* {margin: 0; padding: 0}
+
+h1 {font-size: 80px; font-weight: 400;  font-family: "EB Garamond", serif; line-height: 1.1;}
+
+h2 {font-size: 43px; font-weight: 400;  font-family: "EB Garamond", serif;  line-height: 1.4;}
+
+h3 {font-size: 29px; font-weight: 200;  font-family:  "Karla", sans-serif;  line-height: 1.1;}
+
+h4 {font-size: 20px; font-weight: 200;  font-family:  "Karla", sans-serif;  line-height: 1.1;}
+
+p {font-size: 16px; font-weight: 400;  font-family:  "Karla", sans-serif;  line-height: 1.1;}
+
+.container-custom {width: 80%; max-width: 1200px; margin: auto;}
+
+/* banner section styles start */
+
+.banner-section {background: url('./images/home-banner.jpg'); height: 100vh; background-repeat: no-repeat; background-size: cover;}
+
+.banner-section .container-custom {height: 100%;}
+
+.banner-section .container-custom .texts {text-align: center; height: 100%; display: flex; flex-direction: column; justify-content: center; max-width: 800px; margin: auto; align-items: center;}
+
+.banner-section .container-custom .texts h1 {margin-bottom: 20px}
+
+
+
+
+/* banner section styles end */
