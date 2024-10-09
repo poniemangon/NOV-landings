@@ -2,7 +2,7 @@
 
 h1 {font-size: 80px; font-weight: 400;  font-family: "EB Garamond", serif; line-height: 1.1;}
 
-h2 {font-size: 43px; font-weight: 400;  font-family: "EB Garamond", serif;  line-height: 1.4;}
+h2 {font-size: 43px; font-weight: 400;  font-family: "EB Garamond", serif;  line-height: 1;}
 
 h3 {font-size: 29px; font-weight: 200;  font-family:  "Karla", sans-serif;  line-height: 1.1;}
 
@@ -10,7 +10,43 @@ h4 {font-size: 20px; font-weight: 200;  font-family:  "Karla", sans-serif;  line
 
 p {font-size: 16px; font-weight: 400;  font-family:  "Karla", sans-serif;  line-height: 1.1;}
 
+a, button {font-size: 16px; font-weight: 700;  font-family:  "Karla", sans-serif;  line-height: 1.1;}
+
 .container-custom {width: 80%; max-width: 1200px; margin: auto;}
+
+.d-flex {display: flex;}
+
+ul {list-style-type: none;}
+
+/* COMMON COMPONENTS */
+
+.btn {background-color: black; padding: 10px 15px; color: white; text-decoration: none; border: none; cursor: pointer;}
+
+/* navbar section styles start */
+
+.navbar-section .container-custom .row {justify-content: space-between; padding: 40px 0; width: 100%; align-items: center;}
+
+.navbar-section .container-custom .row .col {align-items: center;}
+
+.navbar-section .container-custom .row .col .btn {margin-right: 35px;}
+
+.navbar-section .container-custom .row .col ul {gap: 20px;}
+
+.navbar-section .container-custom .row .col ul li a i {font-size: 20px; color: black;}
+
+@media (max-width: 992px) {
+    .navbar-section .container-custom .row {flex-direction: column;}
+
+    .navbar-section .container-custom .row .col {flex-direction: column; align-items: center;}
+
+    .navbar-section .container-custom .row .col ul {margin: auto;}
+
+    .navbar-section .container-custom .row .col .btn {width: 100%; margin: auto; margin-bottom: 30px; text-align: center;}
+
+    .navbar-section .container-custom .row a img {margin-bottom: 30px}
+}
+
+/* navbar section styles end */
 
 /* banner section styles start */
 
@@ -26,3 +62,27 @@ p {font-size: 16px; font-weight: 400;  font-family:  "Karla", sans-serif;  line-
 
 
 /* banner section styles end */
+
+
+/* us section styles start */
+.us-section .container-custom .row {align-items: center; margin-top: 70px;}
+
+.us-section .container-custom .row .texts-col {width: 35%; margin-right: 40px;}
+
+.us-section .container-custom .row .texts-col h2 {margin-bottom: 15px;}
+
+.us-section .container-custom .row .texts-col h4 {margin-bottom: 15px;}
+
+.us-section .container-custom .row .texts-col div.underline {width: 70px; border-bottom: 2px solid black; margin-bottom: 15px;}
+
+.us-section .container-custom .row .images-col {width: 65%; position: relative;}
+
+.us-section .container-custom .row .images-col img {width: calc(100% - 40px); position: relative; z-index: 2;}
+
+.us-section .container-custom .row .images-col .second-image {position: absolute; z-index: 1; left: 40px; top: 40px}
+
+.us-section .container-custom .inverted {flex-direction: row-reverse; margin-top: 110px;}
+
+.us-section .container-custom .inverted .texts-col {width: 35%; margin-right: 0px; margin-left: 40px}
+
+/* us section styles end */
